@@ -1,0 +1,29 @@
+SeraphinaTerminal/
+├── README.md
+├── .gitignore
+├── requirements.txt
+├── src/
+│   ├── main.py
+│   ├── ai_core.py
+│   ├── utils.py
+│   └── modules/
+│       ├── avatar_generator.py
+│       └── message_processor.py
+├── assets/
+│   ├── seraphina_avatar.png
+│   ├── seraphina_banner.png
+├── docs/
+│   ├── index.md
+│   ├── installation.md
+│   ├── usage.md
+│   ├── contributing.md
+├── tests/
+│   ├── test_main.py
+│   ├── test_utils.py
+│   ├── test_ai_core.py
+│   └── test_modules/
+│       ├── test_avatar_generator.py
+│       └── test_message_processor.py
+├── LICENSE
+├── CHANGELOG.md
+└── CONTRIBUTING.md
