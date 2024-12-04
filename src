@@ -1,0 +1,43 @@
+
+---
+
+#### 2. **.gitignore**
+```plaintext
+# Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+
+# Logs
+*.log
+
+# Assets
+*.png
+flask==2.3.2
+pillow==9.4.0
+pytest==7.4.0
+from ai_core import SeraphinaAI
+from utils import greet
+
+def main():
+    print("Welcome to Seraphina Terminal!")
+    greet()
+    ai = SeraphinaAI()
+    ai.respond()
+
+if __name__ == "__main__":
+    main()
+class SeraphinaAI:
+    def __init__(self, name="Seraphina"):
+        self.name = name
+
+    def respond(self):
+        print(f"{self.name} is processing your request...")
+
+if __name__ == "__main__":
+    ai = SeraphinaAI()
+    ai.respond()
