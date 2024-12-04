@@ -1,0 +1,8 @@
+# Contributing to SeraphinaTerminal
+
+We welcome contributions! Here’s how you can get involved:
+
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature-name
